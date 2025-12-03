@@ -12,10 +12,12 @@ public class Exercise4_4 {
 
         // 1) Donus degerini kullanmayin -> ne oluyor?
         getNumber();
+        // Yorum: getNumber() 42 döndürür ama bunu kullanmazsak hiçbir çıktı oluşmaz.
+        // Dönen değer boşa gider.
 
         // 2) void metodu ifade icinde kullanin -> ne oluyor?
         // System.out.println(sayHello() + 7);
-
-        // Cevaplarinizi yorum olarak ekleyin.
+        // Yorum: sayHello() void olduğu için toplama işlemine giremez.
+        // Derleme hatası: "bad operand type void for + operator"
     }
 }
